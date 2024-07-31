@@ -1,0 +1,281 @@
+/* General Styles */
+/* Home Section Title */
+
+.home-content h1 h2 {
+    font-size: 3em; /* Increase font size for more impact */
+    font-weight: bold; /* Make it bold for emphasis */
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3); /* Add a subtle shadow for depth */
+    color: #ffffff; /* White text for contrast against the background */
+    margin-bottom: 20px; /* Add some space below the title */
+}
+
+.home-content p  {
+    font-size: 1.2em; /* Slightly larger font for readability */
+    line-height: 1.8; /* Improve readability with more spacing */
+    color: #5a5757; /* White text for consistency */
+}
+
+/* General Heading Styles */
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif; /* Use a more modern font */
+    font-weight: 700; /* Make headings bold */
+    color: #004d40; /* Dark green for headings */
+    margin-top: 0; /* Remove default margin for a cleaner look */
+    margin-bottom: 10px; /* Add space below headings */
+}
+
+h2 {
+    font-size: 2em; /* Adjust font size for subheadings */
+}
+
+h3 {
+    font-size: 1.5em; /* Adjust font size for smaller headings */
+}
+/* General Styles */
+body {
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    /* background-color: #f4f4f4; */
+    /* color: #333; */
+}
+
+.home {
+    background: url('path/to/your/background.jpg') no-repeat center center/cover;
+    color: #fff;
+    padding: 100px 20px;
+}
+header {
+    /* background-image: url('eco-invest\static\b1.jpeg'); */
+    display: flex; /* Use Flexbox for layout */
+    justify-content: space-between; /* Space between logo and navbar */
+    align-items: center; /* Center items vertically */
+    background: linear-gradient(to right, #004d40, #00796b); /* Darker green for header */
+    padding: 15px 30px; /* Adjust padding for better spacing */
+    color: #fff;
+}
+
+.header .logo {
+    /* background-image: url('earth.jpeg.jpg'); */
+    font-size: 1.5em;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+}
+
+.header .navbar {
+    display: flex; /* Flexbox for horizontal layout */
+}
+
+.header .navbar a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 3px;
+}
+
+.header .navbar a:hover, .header .navbar a.active {
+    background-color: #00796b; /* Lighter green on hover */
+    color: #ffffff;
+}
+/* Home Section Title Hover Effect */
+.home-content h1:hover {
+    text-shadow: 3px 3px 6px rgba(0,0,0,0.5); /* Stronger shadow on hover */
+    color: #a5d6a7; /* Change text color on hover */
+}
+
+/* Home Section Paragraph Hover Effect */
+.home-content p:hover {
+    color: #a5d6a7; /* Change text color on hover */
+}
+
+/* General Heading Hover Effect */
+h1:hover, h2:hover, h3:hover {
+    color: #004d40; /* Dark green color on hover */
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Navbar Links Hover Effect */
+.header .navbar a:hover {
+    background-color: #004d40; /* Darker green on hover */
+    color: #ffffff;
+    transform: scale(1.05); /* Slightly enlarge the link on hover */
+}
+
+/* Features Section Hover Effect */
+.features .feature:hover {
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2); /* Enhance shadow on hover */
+    transform: scale(1.02); /* Slightly enlarge the feature box on hover */
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition */
+}
+
+/* Footer Links Hover Effect (if applicable) */
+.footer a:hover {
+    color: #a5d6a7; /* Change link color on hover */
+    text-decoration: underline; /* Underline on hover */
+}
+
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column; /* Stack items vertically on smaller screens */
+        align-items: flex-start;
+    }
+    .header .navbar {
+        margin-top: 10px; /* Add some space above the navbar */
+    }
+    .header .navbar a {
+        margin: 5px 0;
+    }
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(to right, #004d40, #00796b); /* Darker green for a more formal look */
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.header .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.header .navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #004d40; /* Dark green background for navbar */
+    padding: 10px 0;
+}
+
+.header .navbar a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 15px 20px;
+    margin: 0 5px;
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 3px;
+}
+
+.header .navbar a:hover, .header .navbar a.active {
+    background-color: #00796b; /* Lighter green on hover */
+    color: #ffffff;
+}
+
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+p {
+    line-height: 1.6;
+    margin: 20px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Home Section */
+.home {
+    background: url('path/to/your/background.jpg') no-repeat center center/cover;
+    color: #fff;
+    padding: 100px 20px;
+}
+
+.home-content h1 {
+    font-size: 2.5em;
+}
+
+.home-content p {
+    font-size: 1.2em;
+}
+
+/* Features Section */
+.features {
+    background-color: #e0e0e0;
+}
+
+.features .feature {
+    background: #fff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.features .feature h3 {
+    color: #004d40; /* Dark green for feature titles */
+}
+
+.features .feature p {
+    color: #666;
+}
+
+/* Recommendations and Risk Assessment Sections */
+#recommendations, #resource_trend, #agricultural_risk {
+    background: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Portfolio Section */
+.portfolio {
+    background-color: #e0e0e0;
+}
+
+/* Resources Section */
+.resources {
+    background-color: #e0e0e0;
+}
+
+/* Contact Section */
+.contact {
+    background-color: #004d40; /* Matching dark green */
+    color: #fff;
+}
+
+.contact p {
+    color: #f4f4f4;
+}
+
+/* Footer */
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer p {
+    margin: 0;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .header .navbar {
+        flex-direction: column;
+    }
+    .header .navbar a {
+        margin: 5px 0;
+    }
+}
